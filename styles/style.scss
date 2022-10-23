@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.gallery__title{
+    font-size: 24px;
+    color: red;
+}
+
+.gallery__items{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery-item{
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2) 0 6px 20px 0 rgba(0,0,0,0.2);
+
+    &__image{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    &__title{
+        padding: 20px 0;
+    }
+
+    &__audio{
+        width: 400px;
+        height: 250px;
+    }
+
+    &__video{
+        width: 100%;
+        max-width: 330px;
+        height: 250px;
+    }
+}
