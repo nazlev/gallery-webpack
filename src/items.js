@@ -55,12 +55,11 @@ export default [
     {
         resource: video1,
         type: 'video',
-        title: 'Ноне'
+        title: 'Птичка'
     },
     {
         resource: video2,
         type: 'video',
-        title: 'Морской прибой'
+        title: 'Облака'
     }
-
 ]

@@ -31,7 +31,6 @@ function drawVideo(item){
 }
 
 
-
 export function drawGalleryItem(item) {
     const itemElement = document.createElement('div')
     itemElement.classList = "gallery-item"
